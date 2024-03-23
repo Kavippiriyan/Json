@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Json</title>
 </head>
+
 <body>
     <script>
 
@@ -17,17 +19,42 @@
         //     name:"kavippiriyan",
         //     age:22
         // }
-    //     alert(typeof obj)
-    //     var string = JSON.stringify(obj)
-    //    document.write( string)
-    //    alert(typeof string)
+        //     alert(typeof obj)
+        //     var string = JSON.stringify(obj)
+        //    document.write( string)
+        //    alert(typeof string)
 
-            // var string = '{"name":1,"age":1,"address":[{"native":"somethng","city":[{"cityname":"erode"}]}]}'
+        // var string = '{"name":1,"age":1,"address":[{"native":"somethng","city":[{"cityname":"erode"}]}]}'
 
-            // var convert = JSON.parse(string)
-            // document.write(convert.address[0].city[0].cityname)
+        // var convert = JSON.parse(string)
+        // document.write(convert.address[0].city[0].cityname)
 
-            
+        // square notaion
+
+        var fruits =
+            '{"1":"firstfruit","fname":"apple","color":"red","total quantity":" 1 kg" }'
+
+        // var convert = JSON.parse(fruits)
+
+        // document.write(convert["1"])
+        // document.write(convert["total quantity"])
+
+        // var convert = JSON.parse(fruits,(key,value)=>
+        // {
+        //     if(key=="1")
+        //     {
+        //         document.write(key," ",value)
+
+        //     }
+        //     else{
+
+     
+
+        //     }
+        // })
+
+
     </script>
 </body>
+
 </html>
